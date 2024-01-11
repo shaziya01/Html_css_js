@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        section{
+           
+        }
+        section div{
+            border: 1px solid black;
+            width: 30%;
+            flex-basis: 30%;
+            padding: 20px;
+        }
+        .flexone{
+            /* flex:2; */
+            background-color: blue;
+        }
+        .flextwo{
+            /* flex:1; */
+            background-color: yellow;
+        }
+        .flexthree{
+            /* flex:1; */
+            background-color: orange;
+        }
+           
+             @media(min-width: 768px){
+               section{
+                display: flex;
+            justify-content:space-between;
+            
+               }   
+             } 
+        
+    </style>
+</head>
+<body>
+    <h1> Flex box  </h1>
+ 
+    <section>
+        <div class="flexone">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+        </div>
+        <div class="flextwo">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+        </div>
+        <div class="flexthree">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+        </div>
+    </section> 
+
+   
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- swaping using temporary variable -->
+    <script type="text/javascript">
+        var a = prompt("enter first number");
+        var b = prompt("enter second number");
+
+        document.write(`first value is: ${a} and second is: ${b}`);
+
+        var temp;
+
+        temp = a;
+        a = b;
+        b = temp;
+        document.write(`now first value is: ${a} and second is: ${b}`);
+
+    </script>
+</body>
+</html>
